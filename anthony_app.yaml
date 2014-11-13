@@ -1,28 +1,27 @@
 store:
-  title: Anthony Rees Apps
-  contact: Stackato Support <stackato-support@activestate.com>
+  title: APJ Helionite AppStore
+  contact: Helion Development Platform <heliondev@hp.com>
   icon: http://static.als.hpcloud.com/hp.ico
 apps:
-- name: Anthony Ace Editor
-  id: ace
-  desc: Ace is a standalone code editor written in JavaScript, used by Cloud9 IDE.
+- name: Node Env
+  id: node-env
+  desc: Simple node.js sample application that prints server environment variables
   framework: node
   runtime: node
-  license: MPL
-  commit: stackato
-  src: https://github.com/Stackato-Apps/ace.git
-  info: https://github.com/Stackato-Apps/ace/#readme
+  commit: master
+  src: http://15.126.227.149/root/node-env.git
+  info: https://github.com/Stackato-Apps/node-env/#readme
   icon: default
-  mem: 128
-- name: Anthony Bloodhound
-  id: bloodhound
-  desc: Manage software products; Keep track of features, tasks and bugs
+  mem: 32
+- name: Mezzanine CMS
+  id: mezzanine
+  desc: An open source content management platform built using the Django framework
   framework: python
   runtime: python27
   services: mysql
-  license: Apachev2
-  commit: stackato-v3
-  src: https://github.com/Stackato-Apps/bloodhound.git
-  info: https://github.com/Stackato-Apps/bloodhound/#readme
-  icon: https://get.stackato.com/store/icon/bloodhound.png
-  mem: 512
+  license: BSD
+  commit: stackato
+  src: http://15.126.227.149/root/mezzanine.git
+  info: https://github.com/Stackato-Apps/mezzanine/#readme
+  icon: https://get.stackato.com/store/icon/mezzanine.png
+  mem: 128
