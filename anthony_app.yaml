@@ -1,0 +1,29 @@
+store:
+  title: Anthony Rees Apps
+  contact: Stackato Support <stackato-support@activestate.com>
+  icon: http://static.als.hpcloud.com/hp.ico
+apps:
+- name: Anthony Ace Editor
+  id: ace
+  desc: Ace is a standalone code editor written in JavaScript, used by Cloud9 IDE.
+  framework: node
+  runtime: node
+  license: MPL
+  commit: stackato
+  src: https://github.com/Stackato-Apps/ace.git
+  info: https://github.com/Stackato-Apps/ace/#readme
+  icon: default
+  mem: 128
+
+- name: Anthony Bloodhound
+  id: bloodhound
+  desc: Manage software products; Keep track of features, tasks and bugs
+  framework: python
+  runtime: python27
+  services: mysql
+  license: Apachev2
+  commit: stackato-v3
+  src: https://github.com/Stackato-Apps/bloodhound.git
+  info: https://github.com/Stackato-Apps/bloodhound/#readme
+  icon: https://get.stackato.com/store/icon/bloodhound.png
+  mem: 512
