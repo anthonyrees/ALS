@@ -14,7 +14,6 @@ apps:
   info: https://github.com/Stackato-Apps/ace/#readme
   icon: default
   mem: 128
-
 - name: Anthony Bloodhound
   id: bloodhound
   desc: Manage software products; Keep track of features, tasks and bugs
